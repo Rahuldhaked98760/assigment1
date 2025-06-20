@@ -2,11 +2,7 @@
 <html>
 <head>
 <title>Bella Vista Restaurant Menu</title>
-<style>
-     table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
 
-th, td { border: 1px solid black; padding: 8px; text-align: left; }
-</style>
 </head>
 <body>
 
@@ -35,67 +31,49 @@ th, td { border: 1px solid black; padding: 8px; text-align: left; }
  
   <img src="https://th.bing.com/th/id/OIP.kvrhrsWYWYcSxdukfskNTwHaFj?r=0&rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3" alt="Bella Vista Restaurant Dining Room">
   <p>Our beautiful dining room welcomes you.</p>
-  
-
-      
-<!DOCTYPE html>
-<html>
-<head>
 <title>Bella Vista Restaurant Menu</title>
-<style>
-  body {
-    font-family: sans-serif;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 1em;
-  }
-  th, td {
-    border: 1px solid black;
-    padding: 0.2em;
-    text-align: left;
-  }
-  img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 0.5em;
-  }
-  .section-title {
-    font-weight: bold;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-  }
-</style>
-</head>
-<body>
 
- 
+<h2>Appetizers</h2>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Dish</th>
+      <th>Description</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="https://th.bing.com/th/id/OIP.4Gz5vjQbRESSn1WG39DYHgHaE8?r=0&rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3" alt="Bruschetta Classica" width="200"> </td>
+        <td> <b>Bruscheta Classica </b>:Fresh tomatoes, basil, garlic on toasted bread</td>
+      <td>$12</td>
+    </tr>
+    <tr>
+      <td><img src="https://bing.com/th?id=OSK.b99a7d6dadaca18031c059bdeb8a6703" alt="Antipasto Platter"width="200" ></td>
+      <td><b>Antipasto Platter</b> :Selection of cured meats, cheeses, olives, and vegetables</td>
+      <td>$18</td>
+    </tr>
+    <tr>
+      <td><img src="https://bing.com/th?id=OSK.ad2aaa429a6a69fd957ccd0f2da0f32e" alt="Calamari Fritti"width="200"></td>
+       <td> <b>Calamari fitti:</b>Crispy fried squid with marinara sauce</td>
+      <td>$15</td>
+    </tr>
+    <tr>
+      <td><img src="https://bing.com/th?id=OSK.9e74da41f147f35c75d95e04a73e73a2" alt="Caprese Salad"width="200"></td>
+      <td><B>carpese salad</B> Caprese Salad:Fresh mozzarella, tomatoes, basil with balsamic glaze</td>
+      <td>$14</td>
+    </tr>
+  </tbody>
+</table>
+<h2>🍕Pasta</h2>
+<table border="1">
 
-  <div class="section-title">Appetizers</div>
-  <img src="[Image URL for Appetizer 1]" alt="Bruschetta Classica">
-  <p><strong>Bruschetta Classica - $12</strong><br>
-     Fresh tomatoes, basil, garlic on toasted bread</p>
-  <img src="[Image URL for Appetizer 2]" alt="Antipasto Platter">
-  <p><strong>Antipasto Platter - $18</strong><br>
-     Selection of cured meats, cheeses, olives, and vegetables</p>
-  <img src="[Image URL for Appetizer 3]" alt="Calamari Fritti">
-  <p><strong>Calamari Fritti - $15</strong><br>
-      Crispy fried squid with marinara sauce</p>
-  <img src="[Image URL for Appetizer 4]" alt="Caprese Salad">
-  <p><strong>Caprese Salad - $14</strong><br>
-    Fresh mozzarella, tomatoes, basil with balsamic glaze</p>
-
-  <div class="section-title">Pasta</div>
-  <table>
-    <thead>
       <tr>
         <th>Dish Name</th>
         <th>Description</th>
         <th>Price</th>
         <th>Spicy Level</th>
       </tr>
-    </thead>
     <tbody>
       <tr>
         <td>Spaghetti Carbonara</td>
@@ -124,11 +102,11 @@ th, td { border: 1px solid black; padding: 8px; text-align: left; }
     </tbody>
   </table>
 
-  <div class="section-title">Wood-Fired Pizza</div>
+ <h2> Wood-Fired Pizza</h2>
   <p>Our authentic wood-fired oven reaches 900°F</p>
 
-  <div class="section-title">Traditional Pizzas</div>
-  <img src="[Image URL for Pizza 1]" alt="Margherita">
+  <h3>Traditional Pizzas</h3>
+  <img src="https://th.bing.com/th/id/OIP.A_7IadfotxHc56iM-XuY5AHaJd?w=208&h=266&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Margherita" width="200">
   <p><strong>1. Margherita - $16</strong>
     <ul>
       <li>San Marzano tomatoes</li>
@@ -138,7 +116,7 @@ th, td { border: 1px solid black; padding: 8px; text-align: left; }
     </ul>
   </p>
 
-  <img src="[Image URL for Pizza 2]" alt="Pepperoni">
+  <img src="https://th.bing.com/th/id/OIP.jAD9aEjFF-FHHhK8hFzQ_wHaHa?w=181&h=181&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Pepperoni" width="200">
   <p><strong>2. Pepperoni - $18</strong>
   <ul>
     <li>Pepperoni pizza</li>
@@ -148,7 +126,7 @@ th, td { border: 1px solid black; padding: 8px; text-align: left; }
   </ul>
   </p>
 
-  <img src="[Image URL for Pizza 3]" alt="Quattro Stagioni">
+  <img src="https://th.bing.com/th/id/OIP.o5GcbxVBCDeDZ9LM4vCDGgHaEK?w=280&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Quattro Stagioni" width="200">
   <p><strong>3. Quattro Stagioni - $22</strong>
   <ul>
     <li>Artichokes</li>
@@ -158,48 +136,88 @@ th, td { border: 1px solid black; padding: 8px; text-align: left; }
   </ul>
   </p>
 
-    <div class="section-title">Specialty Pizzas</div>
-    <img src="[Image URL for Prosciutto e Rucola]" alt="Prosciutto e Rucola">
-    <p><strong>Prosciutto e Rucola - $24 (Prosciutto and arugula)</strong></p>
-    <img src="[Image URL for Diavola]" alt="Diavola">
-    <p><strong>Diavola - $20 (spicy salami with hot peppers)</strong></p>
-    <img src="[Image URL for Vegetariana]" alt="Vegetariana">
-    <p><strong>Vegetariana - $19 (minced vegetables and herbs)</strong></p>
+<h2>Specialty Pizzas</h2>
+<table border="1">
+  <tr>
+    <th></th>
+    <th></th>
 
-  <div class="section-title">Main Courses</div>
-  <p>Meat & Poultry</p>
-  <img src="[Image URL for Osso Buco]" alt="Osso Buco">
-  <p><strong>Osso Buco - $35</strong>
-      Braised veal shanks in wine sauce</p>
-  <img src="[Image URL for Chicken Parmigiana]" alt="Chicken Parmigiana">
-  <p><strong>Chicken Parmigiana - $26</strong>
-      Breaded chicken with tomato sauce and cheese</p>
-  <img src="[Image URL for Veal Marsala]" alt="Veal Marsala">
-  <p><strong>Veal Marsala - $32</strong>
-      Tender veal in mushroom wine sauce</p>
+  </tr>
+  <tr>
+    <td><img src="https://bing.com/th?id=OSK.6e6d62b5ad31e7d7d50079e9db5098a4" alt="Prosciutto e Rucola"width="200" td>
+    <td><b> Prosciutto e Rucola</b>-$24 (Prosciutto and arugula)</td>
+  
+  </tr>
+  <tr>
+    <td><img src="https://th.bing.com/th/id/OIP.K2C0G6ESyrEg-v7INk77PQHaE8?w=294&h=196&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Diavola"width="200" ></td> 
+    <td><b>   Diavola</b>- $20 (spicy salami with hot peppers)</td>
+  </tr>
+  <tr>
+    <td><img src="https://th.bing.com/th/id/OIP.Ddx1FVA26y-gXvdjL2MsjQHaEK?w=290&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Vegetariana"width="200"></td>   
+    <td><b> Vegetariana</b>-$19 (Mixed vegetables and herbs)</td>
+  </tr>
+</table>
 
-  <div class="section-title">Seafood</div>
-  <img src="[Image URL for Branzino al Sale]" alt="Branzino al Sale">
+<h2>🥩Main Courses</h2>
+<h3>Meat & poultry</h3>
+<p>all main course with seasones vegetables and your choice pasta.</p>
+<table border="1">
+
+  <tr>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td><img src="https://th.bing.com/th/id/OIP.Jjap7PyioM9e7SzX-FZ4kgHaE8?w=261&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Osso Buco"width="200" ></td> 
+   <td><b> Osso Buco</b>-$35 <br> veal shanks in wine sauce</td>
+  </tr>
+<tr>
+    <td><img src="https://th.bing.com/th/id/OIP.J2yowkajytAqS3RiBzuXbAHaJ3?w=208&h=277&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Chicken Parmigiana"width="200" height="150"></td>
+   <td><b>Chicken Parmigiana</b>-$26<br> Breaded chicken-$ with tomato sauce and cheese</td>
+  </tr>
+  <tr>
+    <td><img src="https://th.bing.com/th/id/OIP.rwZ0evfXX7tIc4OsveyCnAHaE8?w=239&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Veal Marsala"width="200"></td>
+   <td><b> Veal Marsala </b>-$32<br> veal in mushroom wine sauce</td>
+  </tr>
+</table>
+
+</body> 
+
+  <h2>Seafood</h2>
+  <img src="https://th.bing.com/th/id/OIP.Wvs-L9-7UUKhVxBUj88g_AHaE6?w=299&h=198&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Branzino al Sale"width="200">
   <p><strong>Branzino al Sale - $28</strong>
       Whole sea bass baked in sea salt</p>
-  <img src="[Image URL for Linguine alle Vongole]" alt="Linguine alle Vongole">
+  <img src="https://th.bing.com/th/id/OIP.2iMLOVht_ZeEX0eZf4tYBAHaLH?w=204&h=306&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Linguine alle Vongole"width="200">
   <p><strong>Linguine alle Vongole - $25</strong>
       Linguine with fresh clams in white wine sauce</p>
-    <img src="[Image URL for Salmone Griglia]" alt="Salmone Griglia">
+    <img src="https://th.bing.com/th/id/OIP.oU9xSB4zpyU7Key4z5GvRAHaE7?w=251&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Salmone Griglia"width="200">
     <p><strong>Salmone Griglia - $26</strong>
       Grilled Atlantic salmon with lemon herbs</p>
 
-  <div class="section-title">Dolci (Desserts)</div>
-  <p>Traditional Italian Sweets</p>
-  <img src="[Image URL for Classic Tiramisu]" alt="Tiramisu">
-  <p><strong>Tiramisu - $9</strong>
-      Classic Italian dessert with coffee-soaked ladyfingers, mascarpone, and cocoa. Made with our pastry chef using the original family recipe from Treviso.</p>
-  <img src="[Image URL for Cannoli Siciliani]" alt="Cannoli Siciliani">
-  <p><strong>Cannoli Siciliani - $8</strong>
-      Crispy pastry shells filled with sweet ricotta, chocolate chips, and pistachios. Shells are made to order for maximum crispness!</p>
+<body>
+<h2>Dolci (Desserts)</h2>
+<h3>Traditional Italian Sweets</h3>
 
-  <div class="section-title">Beverages</div>
-  <p>Wine Selection</p>
+<table border="1">
+  <trstyle="width:300px; height:100;">
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td> <img src="https://bing.com/th?id=OSK.fe4858e8063e202de8ffae7be289131e " width="200">  
+    <td><b>Tiramisu</b>-$9<br> Classic Italian dessert with coffee-soaked ladyfingers, mascarpone, and cocoa. Made...</td>
+  </tr>
+  <tr>
+    <td><img src="https://bing.com/th?id=OSK.7b2374fafdf530655323c511d137aba3 " alt="Cannoli Siciliani" width="200"></td>  
+    <td><b>Cannoli Siciliani</b> - $8 <br> crispy pastry filled with sweet ricotta,chocolate chips,shells are made to order for maximunm crispiness</td>
+  </tr> 
+</table>
+
+</body>
+
+
+  <h2> Beverages</h2>
+  <h3> Wine Selection</h3>
   <p>Red Wines</p>
   <ul>
       <li>Chianti Classico (Tuscany) - Glass $12 | Bottle $45</li>
@@ -207,24 +225,23 @@ th, td { border: 1px solid black; padding: 8px; text-align: left; }
       <li>Montepulciano d'Abruzzo - Glass $10 | Bottle $38</li>
   </ul>
   <p>White Wines</p>
-  <ul>
+  <ul type="circle">
       <li>Pinot Grigio (Veneto) - Glass $11 | Bottle $42</li>
       <li>Vermentino (Sardinia) - Glass $13 | Bottle $48</li>
       <li>Gavi di Gavi (Piedmont) - Glass $15 | Bottle $58</li>
   </ul>
   <p>Non-Alcoholic</p>
-  <ol>
+  <ol type="I">
     <li>Espresso - $3</li>
     <li>Cappuccino - $4</li>
     <li>Italian Sodas - $5</li>
     <li>Fresh Juices - $6</li>
     <li>Sparkling Water - $4</li>
   </ol>
-
-  <div class="section-title">Contact & Hours</div>
-  <p>Operating Hours</p>
-  <table>
-    <thead>
+  
+  <h2>Contact &hours</h2>
+   <h3> Operating Hours</h3>
+    <table border="1">
       <tr>
         <th>Day</th>
         <th>Lunch</th>
@@ -255,10 +272,10 @@ th, td { border: 1px solid black; padding: 8px; text-align: left; }
     Little Italy, NY 1001<br>
     Phone: (555) 123-4567<br>
     Email: <a href="mailto:info@bellavista.com">info@bellavista.com</a><br>
-    Website: <a href="www.bellavista.com">www.bellavista.com</a>
+    Website: <a href="https://www.bellavistaitalian.com/">www.bellavista.com</a>
   </p>
 
-    <div class="section-title">Make a Reservation</div>
+    <h2> Make a Reservation </h2>
 
    <form>
         <p><strong>Personal Information: (All fields required)</strong></p>
@@ -320,13 +337,13 @@ th, td { border: 1px solid black; padding: 8px; text-align: left; }
 
   <div class="section-title">Follow Us</div>
   <p>
-  <a href="[Facebook URL]">Facebook</a> | <a href="[Instagram URL]">Instagram</a> | <a href="[Twitter URL]">Twitter</a>
+  <a href="https://www.facebook.com/">Facebook</a> | <a href="https://www.bing.com/ck/a?!&&p=88503ce989ef024c66fb4e950653a865a4c45d1e0ea83cc77ab6901866d8a6afJmltdHM9MTc1MDI5MTIwMA&ptn=3&ver=2&hsh=4&fclid=31be2fcc-1e42-6328-2f61-39c31f4462d7&psq=instagram&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8&ntb=1 ">Instagram</a> | <a href="https://www.bing.com/ck/a?!&&p=c5f492d8e40887a6d86c4d96aecea5ed47f35929c1600c47b5c87ffaf1e86101JmltdHM9MTc1MDI5MTIwMA&ptn=3&ver=2&hsh=4&fclid=31be2fcc-1e42-6328-2f61-39c31f4462d7&psq=twitter&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS8_bGFuZz1lbi1pbg&ntb=1">Twitter</a>
   </p>
 
-  <p>© 2024 Bella Vista Restaurant. All rights reserved. | <a href="[Privacy Policy URL]">Privacy Policy</a> | <a href="[Terms of Service URL]">Terms of Service</a></p>
+  <p>© 2024 Bella Vista Restaurant. All rights reserved. | <a href="https://bellavista.ie/privacy-policy/">Privacy Policy</a> | <a href="https://www.restaurant-bellavista-gelnhausen.de/de/">Terms of Service</a></p>
   <p>Ctrl+D to bookmark this page!</p>
-
-  <p>Base Appetito! It</p>
-
+<h3>Boun appetio</h3>
 </body>
 </html>
+
+
