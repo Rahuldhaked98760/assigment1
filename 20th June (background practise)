@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>20th june-background practice</title>
+  <style>
+    .header {
+      width: 100%;
+      height: 100px;
+      background-color: teal;
+      color: white;
+      border-bottom: 3px solid darkcyan;
+      display: flex;
+      align-items: center;
+      padding-left: 20px;
+      font-size: 24px;
+      font-family: Arial, sans-serif;
+    }
+
+    .content-box {
+      width: 400px;
+      height: 200px;
+      background-color: lightgray;
+      border: 2px dashed black;
+      color: #333;
+      margin: 20px;
+      padding: 15px;
+      font-family: Verdana, sans-serif;
+    }
+
+    .profile-card {
+      width: 300px;
+      height: 350px;
+      background-image: url('https://images.pexels.com/photos/67517/pexels-photo-67517.jpeg?cs=srgb&dl=landscape-mountains-nature-67517.jpg&fm=jpg'); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border: 2px solid black;
+      border-radius: 10px;
+      margin: 20px;
+      color: white;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding: 10px;
+      text-shadow: 1px 1px 2px black;
+      font-weight: bold;
+      font-family: Arial, sans-serif;
+    }
+
+    .footer {
+      width: 100%;
+      height: 80px;
+      background: linear-gradient(to right, #4b6cb7, #182848);
+      border-top: 3px solid #000;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+      font-family: Tahoma, sans-serif;
+    }
+
+    .notification-box {
+      width: 250px;
+      height: 100px;
+      background-color: #fff3cd;
+      border-left: 5px solid #ffc107;
+      color: #856404;
+      margin: 20px;
+      padding: 10px;
+      font-family: Georgia, serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    Welcome to My Website
+  </div>
+
+  <div class="content-box">
+    <p>Mount Robson is the most prominent mountain in North America's Rocky Mountain range; it is also the highest point in the Canadian Rockies. The mountain is located entirely within Mount Robson Provincial Park of British Columbia.</p>
+  </div>
+
+  <div class="profile-card">
+    <p>Profile Card</p>
+  </div>
+
+  <div class="footer">
+    <p>Footer Section © 2025</p>
+  </div>
+
+  <div class="notification-box">
+    <p>This is a notification message.</p>
+  </div>
+
+</body>
+</html>
