@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Animation Assignment</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(270deg, #e0f7fa, #ffe0b2, #f8bbd0);
+      background-size: 600% 600%;
+      animation: backgroundShift 20s ease infinite;
+    }
+section {
+      padding: 50px;
+      text-align: center;
+    }
+
+    .task1-button {
+      padding: 15px 30px;
+      background-color:blue;
+      color: white;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.5s, transform 0.5s;
+      cursor: pointer;
+    }
+
+    .task1-button:hover {
+      background-color: blue;
+      transform: scale(1.05);
+    }
+
+    .rotating-gear {
+      font-size: 60px;
+      display: inline-block;
+      animation: rotateGear 4s linear infinite;
+    }
+
+    @keyframes rotateGear {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    .fade-slide-text {
+      opacity: 0;
+      animation: fadeSlideIn 3s ease forwards;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+      font-size: 32px;
+    }
+
+    @keyframes fadeSlideIn {
+      from {
+        opacity: 0;
+        transform: translateX(-100px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <section>
+    <h2>Task 1: Smooth Hover Animation</h2>
+    <button class="task1-button">Hover Me</button>
+  </section>
+
+  <section>
+    <h2>Task 2: Rotating Gear</h2>
+    <div class="rotating-gear">⚙️</div>
+  </section>
+
+  <section>
+    <h2>Task 3: Text Fade In + Slide</h2>
+    <h1 class="fade-slide-text">Welcome to CSS World</h1>
+  </section>
+
+</body>
+</html>
