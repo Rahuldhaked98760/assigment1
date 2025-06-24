@@ -1,1 +1,56 @@
 
+Width and Height
+width: Defines how wide an element is. Can use units like pixels (px), percentages (%).
+
+height: Defines the height of an element using similar units.
+
+ Background Image Properties
+background-image: Sets an image to be used as the background of an element.
+
+background-repeat: Controls whether and how the background image is repeated (horizontally, vertically, or not at all).
+
+background-size: Determines how the background image should be scaled (can be a specific size, or scaled to cover or contain the element).
+
+background-position: Positions the background image inside the container.
+
+background-attachment: Specifies whether the background scrolls with the page or stays fixed.
+
+ Border Properties
+border: A shorthand for setting border width, style, and color.
+
+border-style: Defines the style of the border (solid, dashed, dotted, double, none, etc.).
+
+border-width: Specifies the thickness of the border.
+
+border-color: Sets the color of the border.
+
+border-radius: Rounds the corners of an element. we can apply it to one or more corners.
+
+ Margin and Padding
+margin: Controls the space outside an element. Can set individual sides or use shorthand values.
+
+padding: Controls the space inside an element between the content and the border.
+
+ Color and Background Color
+color: Sets the color of the text.
+
+background-color: Sets the background color of an element.
+
+ Font and Text
+font-size: Adjusts the size of the text.
+
+text-align: Aligns the text inside an element (left, center, right, justify).
+
+ CSS Selectors
+ID Selector: Targets a specific element with a unique identifier.
+
+Class Selector: Targets one or more elements with a shared class name.
+
+Element Selector: Targets all instances of a specific HTML element (like h1, p, etc.).
+
+ CSS Styling Methods
+Inline CSS: Style written directly inside the HTML element using the style attribute.
+
+Internal CSS: Style written within a <style> tag inside the <head> section of the HTML file.
+
+External CSS: Styles are written in a separate CSS file and linked to the HTML file using the <link> tag.
