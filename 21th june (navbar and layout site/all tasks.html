@@ -1,1 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task1</title>
+<h2>Task-1</h2>
+<style>
 
+.n-container { width: 500px;; height:auto;
+  margin-bottom: 20px; 
+}
+
+.n { width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:darkgreen; 
+  color: lightgreen;
+  padding: 10px 20px;
+  border-radius: 5px; 
+  margin: 0 20px; 
+}
+
+.n-left {  gap: 15px;
+}
+
+.n-right { gap: 15px;
+}
+
+.n a { color: white;
+  text-decoration: none; padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.n a:hover {
+    background-color:lightgreen; 
+}
+
+.contact-button { background-color: white;
+  color: lightgreen;border: none;
+  padding: 5px 10px;border-radius: 3px;
+ 
+}
+
+.contact-button:hover {
+    background-color: white;
+}
+
+</style>
+</head>
+<body>
+
+<div class="n-container">
+  <div class="n">
+    <div class="n-left">
+      <span>BWC</span>
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">SERVICES</a>
+    </div>
+    <div class="n-right">
+      <button class="contact-button">CONTACT</button>
+    </div>
+  </div>
+</div>
+
+<div class="n-container">
+  <div class="n">
+    <div class="n-left">
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">SERVICES</a>
+    </div>
+    <div class="n-right">
+      <button class="contact-button">CONTACT</button>
+      <span>BWC</span>
+    </div>
+  </div>
+</div>
+
+<div class="na-container">
+  <div class="n">
+    <div class="n-left">
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">SERVICES</a>
+    </div>
+    <div class="n-right">
+      <span>BWC</span>
+      <button class="contact-button">CONTACT</button>
+    </div>
+  </div>
+</div>
+
+</body>
+   
+
+<h2>Task-2</h2>
+<head>
+<title>task-2</title>
+<style>
+
+.header { background-color:green; 
+ color: white; padding: 10px 0;
+  text-align: center;
+}
+.left-column a { display: block;
+  text-decoration: none; color: black;
+  margin-bottom: 5px;
+}
+.main-content { 
+  flex-grow: 1;
+}
+.top-bar { background-color: lightgreen;
+  color:red; padding:5px 20px;
+  text-align: right;
+}
+
+.top-bar a { color: green; text-align:right ;
+  text-decoration: none; margin-left: 15px;
+}
+
+.container { display: flex; background-color:white; 
+  padding: 20px;
+}
+
+.text-section { 
+  margin-bottom: 20px;
+}
+
+.text-section h2 {color:darkgreen; 
+  margin-bottom: 5px;
+}
+
+.grid-container { width:auto; height: auto;border:lightgreen;
+  display: flex;
+}
+
+.grid-item {background-color: lightgreen;  padding: 15px;
+}
+
+.grid-item h3 {color: darkgreen;margin-bottom: 5px;
+}
+
+.footer { background-color: white; text-align: center;
+  padding: 10px; font-size: 0.8em; color: black;
+}
+</style>
+</head>
+<body>
+  <div class="top-bar">
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#">FAQ</a>
+    <a href="#">Help</a>
+  </div>
+
+  <div class="header">
+    <h1>CoolLogo</h1>
+    <h2>Heading</h2>
+  </div>
+
+  <div class="container">
+
+    <div class="left-column" >
+      <h3>Left heading</h3>
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+      <a href="#">Link 4</a>
+      <a href="#">Link 5</a>
+    </div>
+    <div class="main-content">
+      <div class="text-section">
+        <h2>View Template Source Code</h2>
+        <p>If the facts don't fit the theory, change the facts. The smaller your reality, the more convinced you are that you know everything. The past has no power over the present moment. The smaller your reality, the more convinced you are that you know everything. The smaller your reality, the more convinced you are that you know everything. If the facts don't fit the theory, change the facts.</p>
+      </div>
+
+      <div class="text-section">
+        <h2>Heading</h2>
+        <p>The most important moment of your life is now. The most important person in your life is the one you are with now, and the most important activity in your life is the one you are involved with now. The past has no power over the present moment. Peace comes from within. Do not seek it without.</p>
+        <p>You will not be punished for your anger, you will be punished by your anger. If the facts don't fit the theory, change the facts. If the facts don't fit the theory, change the facts.</p>
+      </div>
+
+      <div class="grid-container">
+            <div class="grid-item">
+                <h3>Heading</h3>
+                <p>This, too, will pass.</p>
+                <h3>Heading</h3>
+                <p>The most important moment of your life is now.
+                  The most important person in your life is the
+                  one you are with now, and the most important
+                  activity in your life is the one you are involved
+                  with now.</p>
+            </div>
+
+            <div class="grid-item">
+                <h3>Heading</h3>
+                <p>You will not be punished for your anger, you
+                    will be punished by your anger.</p>
+                <h3>Heading</h3>
+                <p>The most important moment of your life is now.
+                  The most important person in your life is the
+                  one you are with now, and the most important
+                  activity in your life is the one you are involved
+                  with now.</p>
+            </div>
+
+            <div class="grid-item">
+                <h3>Heading</h3>
+                <p>You will not be punished for your anger, you
+                  will be punished by your anger. The past has
+                  no power over the present moment.</p>
+            </div>
+        </div>
+
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>© Copyright Your Site | Terms of Use | Privacy Policy</p>
+  </div>
+
+</body>
+
+<h1>Tasl-3</h1>
+<style>
+  .container {  display: flex;  justify-content: center; gap: 20px; 
+    margin: 20px 0; 
+  }
+
+  
+  .a{
+    border: 1px solid black; border-radius: 5px; 
+    padding: 20px;  width: 200px; 
+    text-align: center;
+  }
+
+  .instagram-card {
+    background-color:palevioletred; 
+    color: white;
+  }
+
+  .twitter-card {  color: black;
+  }
+
+  .twitter-card a {background-color: lightblue; 
+  }
+
+  .youtube-card { color: black; 
+  }
+    
+  .youtube-card a {background-color:lightgreen; 
+  }
+
+  .instagram-card a {background-color: white; color:pink;
+  }
+</style>
+
+<div class="container">
+  <div class="a twitter-card">
+    <i class="fab fa-twitter"></i>  
+    <h2>TWITTER</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?</p>
+    <a href="#">READ MORE</a>
+  </div>
+
+  <div class="a instagram-card">
+    <i class="fab fa-instagram"></i>  
+    <h2>INSTAGRAM</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?</p>
+    <a href="#">READ MORE</a>
+  </div>
+
+  <div class="a youtube-card">
+    <i class="fab fa-youtube"></i> 
+    <h2>YOUTUBE</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?</p>
+    <a href="#">READ MORE</a>
+  </div>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</html>
