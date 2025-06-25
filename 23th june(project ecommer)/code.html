@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zay Shop</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color:black;
+      color: white;
+      font-size: 20px;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 50px;
+    }
+
+    .top-bar a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background-color: white;
+      box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul {
+      display: flex;
+      gap: 30px;
+      list-style: none;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: lightgreen;
+    }
+
+    .hero {
+      background: url('https://github.com/ankur-upflairs/batch-03-16th-june-online-2025/blob/main/Assignments/ecommerce%20product%20page/img/banner_img_02.jpg?raw=true');
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size:100% 100%;
+      padding: 200px 20px;
+      display: flex;
+      align-items: left;
+      justify-content: flex-start;
+      color: black;
+      position: relative;
+    }
+
+    .hero::before { 
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: 1;
+    }
+
+    .hero-text {
+      position: relative;
+      z-index: 2;
+      max-width: 600px;
+    }
+
+    .categories {
+      text-align: center;
+      padding: 50px 0px;
+    }
+
+    .category-items {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .category-items div {
+      text-align: center;
+    }
+
+    .category-items img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+
+    .category-items button {
+      background-color:lightgreen;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    .featured {
+      background-color:lightgray;
+      padding: 60px 50px;
+    }
+
+    .products {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .product {
+      background-color:white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 280px;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color:black;
+      color: white;
+      padding: 40px 50px;
+    }
+
+    footer h4 {
+      color:lightgreen;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .footer-section {
+      width: 30%;
+      margin-bottom: 20px;
+    }
+
+    .footer-section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-section ul li {
+      margin-bottom: 10px;
+    }
+
+    .social-icons i {
+      margin-right: 15px;
+      color: white;
+    }
+
+    .subscribe input {
+      padding: 8px;
+      border: none;
+    }
+
+    .subscribe button {
+      background-color: #5CB874;
+      border: none;
+      color: white;
+      padding: 9px 16px;
+    }
+
+    @media (max-width: 768px) {
+      .footer-section {
+        width: 100%;
+      }
+
+      nav, header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .hero {
+        padding: 60px 20px;
+        text-align: center;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>info@company.com | 010-020-0340</div>
+    <div class="top-bar">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </header>
+
+  <nav>
+    <div class="logo">Zay</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div>
+      <i class="fas fa-search"></i>
+      <i class="fas fa-shopping-cart"></i>
+      <i class="fas fa-user"></i>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Proident occaecat</h2>
+      <p>Aliquip ex ea commodo consequat. You are permitted to use this Zay CSS template for your commercial websites.</p>
+    </div>
+  </section>
+
+  <section class="categories">
+    <h2>Categories of The Month</h2>
+    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="category-items">
+      <div>
+        <img src="https://github.com/ankur-upflairs/batch-03-16th-june-online-2025/blob/main/Assignments/ecommerce%20product%20page/img/category_img_01.jpg?raw=true">
+        <p><strong>Watches</strong></p>
+        <button>Go Shop</button>
+      </div>
+      <div>
+        <img src="https://github.com/ankur-upflairs/batch-03-16th-june-online-2025/blob/main/Assignments/ecommerce%20product%20page/img/category_img_02.jpg?raw=true">
+        <p><strong>Shoes</strong></p>
+        <button>Go Shop</button>
+      </div>
+      <div>
+        <img src="https://github.com/ankur-upflairs/batch-03-16th-june-online-2025/blob/main/Assignments/ecommerce%20product%20page/img/category_img_03.jpg?raw=true">
+        <p><strong>Accessories</strong></p>
+        <button>Go Shop</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured">
+    <h2 style="text-align:center; font-size: 24px;">Featured Product</h2>
+    <p style="text-align:center; color: black;">Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+    <div class="products">
+      <div class="product">
+        <img src="https://templatemo.com/templates/templatemo_559_zay_shop/assets/img/feature_prod_01.jpg" alt="Gym Weight">
+        <div style="margin-top: 10px;">
+          <div style="margin: 5px 0; font-weight: bold;">
+              <span style="margin-right: 100px;">
+            <i class="fas fa-star" style="color: yellow;"></i>
+              <i class="fas fa-star" style="color: yellow;"></i>
+              <i class="fas fa-star" style="color: yellow;"></i>
+              <i class="fas fa-star" style="color: yellow;"></i>
+              <i class="fas fa-star" style="color:lightgrey;"></i>
+              </span>
+              <span style="color:lightgrey;gap: 100px;">$240.00</span>
+          </div>
+          <p style="margin: 5px 0; font-weight: bold;">Gym Weight</p>
+          <p style="margin: 5px 0; color: black; font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sunt in culpa qui officia deserunt.</p>
+          <p style="font-size: 13px; color: lightgray;">Reviews (24)</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="https://templatemo.com/templates/templatemo_559_zay_shop/assets/img/feature_prod_02.jpg" alt="Cloud Nike Shoes">
+        <div style="margin-top: 10px;">
+          <div style="margin: 5px 0; font-weight: bold;">
+            <span style="margin-right: 100px;">
+              <i class="fas fa-star" style="color: yellow;"></i>
+              <i class="fas fa-star" style="color: yellow;"></i>
+              <i class="fas fa-star" style="color: yellow;"></i>
+              <i class="fas fa-star" style="color: lightgray;"></i>
+              <i class="fas fa-star" style="color: lightgray;"></i>
+            </span>
+            <span style="color:lightgray;">$240.00</span>
+          </div>
+          <p style="margin: 5px 0; font-weight: bold;">Cloud Nike Shoes</p>
+          <p style="margin: 5px 0; color: black; font-size: 14px;">Aenean gravida dignissim finibus. Nullam ipsum diam, posuere vitae pharetra sed, commodo ullamcorper.</p>
+          <p style="font-size: 13px; color: lightgray;">Reviews (48)</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="https://templatemo.com/templates/templatemo_559_zay_shop/assets/img/feature_prod_03.jpg" alt="Summer Addides Shoes">
+        <div style="margin-top: 10px;">
+          <div style="margin: 5px 0; font-weight: bold;">
+            <span style="margin-right: 100px;">
+              <i class="fas fa-star" style="color: yellow;"></i>
+              <i class="fas fa-star" style="color: yellow;"></i>
+              <i class="fas fa-star" style="color: yellow;"></i>
+              <i class="fas fa-star" style="color: yellow;"></i>
+              <i class="fas fa-star" style="color: lightgray;"></i>
+            </span>
+            <span style="color: lightgray;">$360.00</span>
+          </div>
+          <p style="margin: 5px 0; font-weight: bold;">Summer Addides Shoes</p>
+          <p style="margin: 5px 0; color: black; font-size: 14px;">Curabitur ac mi sit amet diam luctus porta. Phasellus pulvinar sagittis diam, et scelerisque ipsum lobortis nec.</p>
+          <p style="font-size: 13px; color: lightgray;">Reviews (74)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Zay Shop</h4>
+        <p>123 Consectetur at ligula 10660</p>
+        <p>010-020-0340</p>
+        <p>info@company.com</p>
+        <div class="social-icons">
+          <br><br><br><i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h4>Products</h4>
+        <ul>
+          <li>Luxury</li>
+          <li>Sport Wear</li>
+          <li>Men's Shoes</li>
+          <li>Women's Shoes</li>
+          <li>Popular Dress</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Further Info</h4>
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Shop Location</li>
+          <li>FAQs</li>
+          <li>Contact</li>
+        </ul>
+       
+        <div class="subscribe">
+            
+          <input type="email" placeholder="Email address">
+          <button>Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <p style="text-align:center; padding-top:20px;">Copyright &copy; 2021 Company Name |
+      Designed by <a href="https://templatemo.com" style="color:white">TemplateMo</a>
+    </p>
+  </footer>
+
+</body>
+</html>
