@@ -1,0 +1,39 @@
+1.overflow is used when the content inside a box is too big to fit. It decides whether the extra content should be shown, hidden, or scrollable.
+
+The values of overflow are:
+
+visible → Content goes outside the box. (default)
+
+hidden → Extra content is cut off and not shown.
+
+scroll → Always shows scrollbars, even if not needed.
+
+auto → Shows scrollbars only when content overflows.
+
+2.transition is used to add smooth animation effects when a CSS property changes. It makes changes look gradual instead of happening instantly.
+
+It has 4 parts:
+
+property → What you want to animate (like color, width, etc.)
+
+duration → How long the animation takes (like 0.5s)
+
+timing-function → The speed style (like ease, linear, etc.)
+
+delay → Wait time before the animation starts
+
+3.transform is used to change the shape, position, or size of an element without changing the actual layout.
+
+Different functions of transform:
+
+translate → Moves the element left/right or up/down
+
+scale → Makes the element bigger or smaller
+
+rotate → Rotates the element by a certain angle
+
+skew → Tilts the element diagonally
+
+4.Dropdown is a hidden menu that appears when you hover or click. It's useful for saving space and showing options only when needed.
+
+Usually used in navigation bars or settings menus. It stays hidden until someone interacts with it. The content is displayed using display: none and shown using display: block when active.
