@@ -1,0 +1,282 @@
+Task 1: Print numbers from 1 to 10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Task 2: Print numbers from 10 down to 1
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+Task 3: Print numbers from 1 to 5 using do...while
+1
+2
+3
+4
+5
+Task 4: Print all even numbers from 1 to 50
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+30
+32
+34
+36
+38
+40
+42
+44
+46
+48
+50
+Task 5: Print all odd numbers between 20 and 50
+21
+23
+25
+27
+29
+31
+33
+35
+37
+39
+41
+43
+45
+47
+49
+Task 6: Print all numbers divisible by 3 from 1 to 30
+3
+6
+9
+12
+15
+18
+21
+24
+27
+30
+Task 7: Sum of numbers from 1 to 100
+5050
+Task 8: Product of numbers from 1 to 10
+3628800
+Task 9: Sum of all even numbers between 1 and 50
+650
+Task 10: Sum of squares from 1 to 10
+385
+Task 11: Print numbers from 1 to 20, skip multiples of 4
+1
+2
+3
+5
+6
+7
+9
+10
+11
+13
+14
+15
+17
+18
+19
+Task 12: Print numbers from 1 to 10, stop at 7
+1
+2
+3
+4
+5
+6
+Task 13: Count numbers from 1 to 100 divisible by 3 and 5
+6
+Task 14: Print all pairs (i, j) from 1 to 3
+1 1
+1 2
+1 3
+2 1
+2 2
+2 3
+3 1
+3 2
+3 3
+Task 15: Combinations (a + b = 5), 1 ≤ a, b ≤ 4
+1 4
+2 3
+3 2
+4 1
+Task 16: Check if number is prime
+Prime
+Task 17: Factorial of a number
+720
+Task 18: Reverse a number
+321
+Task 19: Count digits in a number
+5
+Task 20: Check if number is a palindrome
+Palindrome
+
+[Done] exited with code=0 in 1.073 seconds
+
+[Running] node "c:\Users\RAHUL\Desktop\javascript\assigments\1st-july-loop.js"
+Task 1: Print numbers from 1 to 10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Task 2: Print numbers from 10 down to 1
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+Task 3: Print numbers from 1 to 5 using do...while
+1
+2
+3
+4
+5
+Task 4: Print all even numbers from 1 to 50
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+30
+32
+34
+36
+38
+40
+42
+44
+46
+48
+50
+Task 5: Print all odd numbers between 20 and 50
+21
+23
+25
+27
+29
+31
+33
+35
+37
+39
+41
+43
+45
+47
+49
+Task 6: Print all numbers divisible by 3 from 1 to 30
+3
+6
+9
+12
+15
+18
+21
+24
+27
+30
+Task 7: Sum of numbers from 1 to 100
+5050
+Task 8: Product of numbers from 1 to 10
+3628800
+Task 9: Sum of all even numbers between 1 and 50
+650
+Task 10: Sum of squares from 1 to 10
+385
+Task 11: Print numbers from 1 to 20, skip multiples of 4
+1
+2
+3
+5
+6
+7
+9
+10
+11
+13
+14
+15
+17
+18
+19
+Task 12: Print numbers from 1 to 10, stop at 7
+1
+2
+3
+4
+5
+6
+Task 13: Count numbers from 1 to 100 divisible by 3 and 5
+6
+Task 14: Print all pairs (i, j) from 1 to 3
+1 1
+1 2
+1 3
+2 1
+2 2
+2 3
+3 1
+3 2
+3 3
+Task 15: Combinations (a + b = 5), 1 ≤ a, b ≤ 4
+1 4
+2 3
+3 2
+4 1
+Task 16: Check if number is prime
+Prime
+Task 17: Factorial of a number
+720
+Task 18: Reverse a number
+321
+Task 19: Count digits in a number
+5
+Task 20: Check if number is a palindrome
+Palindrome
